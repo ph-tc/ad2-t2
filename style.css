@@ -810,7 +810,7 @@ img {
 	height: 20vh;
 	text-decoration: none;
 	text-align: center;
-	background-color: #84527c;
+	background-color: rgba(185, 185, 185, 0.9);
 	border: none;
 	-webkit-animation: colorscale 1.5s infinite alternate ease-in-out;
 	animation: colorscale 1.5s infinite alternate ease-in-out;
@@ -818,12 +818,12 @@ img {
 
 @-webkit-keyframes colorscale {
 	from {
-		background-color: #84527c;
+		/*background-color: #84527c;*/
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 	to {
-		background-color: #986390;
+		/*background-color: #986390;*/
 		-webkit-transform: scale(0.96);
 		transform: scale(0.96);
 	}
@@ -831,12 +831,12 @@ img {
 
 @keyframes colorscale {
 	from {
-		background-color: #84527c;
+		/*background-color: #84527c;*/
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 	to {
-		background-color: #986390;
+		/*background-color: #986390;*/
 		-webkit-transform: scale(0.96);
 		transform: scale(0.96);
 	}
@@ -854,7 +854,7 @@ img {
 	font-weight: 600;
 	line-height: 32px;
 	color: #fff;
-	text-shadow: 0 4px 7px rgba(0, 0, 0, 0.31);
+	text-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
 }
 
 .main .btn > span::after {
