@@ -936,7 +936,8 @@
 			left: 50%;
 			-webkit-transform: translate(-50%, -50%);
 			-ms-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
+			margin-top: -25px;
+			margin-left: -25px;
 			width: 50px;
 			height: 50px;
 			border: 3px solid #fff;
@@ -957,23 +958,23 @@
 
 		@-webkit-keyframes rotation {
 			from {
-				-webkit-transform: translate(-50%, -50%) rotate(0);
-				transform: translate(-50%, -50%) rotate(0);
+				-webkit-transform: rotate(0);
+				transform: rotate(0);
 			}
 			to {
-				-webkit-transform: translate(-50%, -50%) rotate(1turn);
-				transform: translate(-50%, -50%) rotate(1turn);
+				-webkit-transform: rotate(1turn);
+				transform: rotate(1turn);
 			}
 		}
 
 		@keyframes rotation {
 			from {
-				-webkit-transform: translate(-50%, -50%) rotate(0);
-				transform: translate(-50%, -50%) rotate(0);
+				-webkit-transform: rotate(0);
+				transform: rotate(0);
 			}
 			to {
-				-webkit-transform: translate(-50%, -50%) rotate(1turn);
-				transform: translate(-50%, -50%) rotate(1turn);
+				-webkit-transform: rotate(1turn);
+				transform: rotate(1turn);
 			}
 		}
 
@@ -1153,10 +1154,6 @@
 					<div class="icon"></div>
 					<span>Смотреть позже</span>
 				</div>
-<!--				<div class="recommendations">-->
-<!--					<div class="icon"></div>-->
-<!--					<span>Рекомендации</span>-->
-<!--				</div>-->
 			</div>
 		</div>
 		<div class="tags">
