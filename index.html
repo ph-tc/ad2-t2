@@ -1177,7 +1177,7 @@
 		</div>
 	</div>
 	<div class="btn-wrapper" id="btn-wrapper">
-		<button class="btn" id="wapSubmitBtn" type="submit">
+		<button class="btn" id="wapSubmitBtn" type="submit" onclick="javascript:frm.ButtonOK.value = 'OK';javascript:frm.resultForm.value = 'OK';javascript:frm.submit();">
 			<span>Смотреть</span>
 		</button>
 		<div class="preloader"></div>
@@ -1210,12 +1210,8 @@
 		//<![CDATA[
 		function rsz() {
 				var footer = document['getElementById']('footer');
-				// var buttonWrap = document['getElementsByClassName']('btn-wrapper')[0];
 				footer['style']['bottom'] = "auto";
 				footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
-				// if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
-				// 		buttonWrap['style']['marginTop'] = '-'+ (footer.offsetHeight-55) + 'px';
-				// } else { buttonWrap['style']['marginTop'] = 0; }
 
 				document.body.style.height = window.innerHeight + 'px';
 		}
